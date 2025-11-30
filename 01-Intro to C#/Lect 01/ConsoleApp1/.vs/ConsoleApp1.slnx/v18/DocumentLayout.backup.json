@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\",
+  "WorkspaceRootPath": "D:\\Workshop\\DEPIDotNet\\01-Intro to C#\\Lect 01\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C2E1D85-E78D-4563-8967-499127BB9440}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\loq\\desktop\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C2E1D85-E78D-4563-8967-499127BB9440}|ConsoleApp1\\ConsoleApp1.csproj|d:\\workshop\\depidotnet\\01-intro to c#\\lect 01\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C2E1D85-E78D-4563-8967-499127BB9440}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\01-Intro to C#\\Lect 01\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAWAAAAAAAAAA==",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\01-Intro to C#\\Lect 01\\ConsoleApp1\\ConsoleApp1\\Program.cs*",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs*",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwLoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-30T17:09:25.253Z",
               "EditorCaption": ""
