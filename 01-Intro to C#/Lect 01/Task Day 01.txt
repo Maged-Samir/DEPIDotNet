@@ -1,0 +1,206 @@
+Create a simple console-based ATM program in C#. The program should start with a welcome message and show a menu with options: show balance, deposit, withdraw, or exit. The user can choose an action repeatedly until they exit. Use input/output, conditional statements, and loops to handle user interaction and balance management.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        decimal balance = 1000m;
+        bool running = true;
+
+        Console.WriteLine("Welcome to C# ATM Simulator!");
+
+        while (running)
+        {
+            Console.WriteLine("\nPlease choose an option:");
+            Console.WriteLine("1. Show Balance");
+            Console.WriteLine("2. Deposit Money");
+            Console.WriteLine("3. Withdraw Money");
+            Console.WriteLine("4. Exit");
+
+            Console.Write("Your choice: ");
+            string input = Console.ReadLine();
+
+            switch (input)
+            {
+                case "1":
+                    Console.WriteLine($"Your balance is: {balance:C}");
+                    break;
+
+                case "2":
+                    Console.Write("Enter amount to deposit: ");
+                    decimal deposit = Convert.ToDecimal(Console.ReadLine());
+                    if (deposit > 0)
+                    {
+                        balance += deposit;
+                        Console.WriteLine("Deposit successful!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid amount.");
+                    }
+                    break;
+
+                case "3":
+                    Console.Write("Enter amount to withdraw: ");
+                    decimal withdraw = Convert.ToDecimal(Console.ReadLine());
+                    if (withdraw > balance)
+                    {
+                        Console.WriteLine("Insufficient funds.");
+                    }
+                    else if (withdraw > 0)
+                    {
+                        balance -= withdraw;
+                        Console.WriteLine("Withdrawal successful!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid amount.");
+                    }
+                    break;
+
+                case "4":
+                    Console.WriteLine("Thank you for using the ATM. Goodbye!");
+                    running = false;
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice. Please try again.");
+                    break;
+            }
+        }
+    }
+}
+
+
+-------------------------------------------------------------------------------------------------------
+Add a password login at the beginning (e.g., user must enter correct pin) with solve 
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        const string correctPin = "1234";
+        int attempts = 3;
+        bool isAuthenticated = false;
+
+        // PIN check
+        while (attempts > 0)
+        {
+            Console.Write("Enter your PIN: ");
+            string enteredPin = Console.ReadLine();
+
+            if (enteredPin == correctPin)
+            {
+                isAuthenticated = true;
+                break;
+            }
+            else
+            {
+                attempts--;
+                Console.WriteLine($"Incorrect PIN. Attempts remaining: {attempts}");
+            }
+        }
+
+        if (!isAuthenticated)
+        {
+            Console.WriteLine("Too many failed attempts. Exiting...");
+            return;
+        }
+
+        // ATM Menu
+        decimal balance = 1000m;
+        bool running = true;
+
+        Console.WriteLine("\nWelcome to C# ATM Simulator!");
+
+        while (running)
+        {
+            Console.WriteLine("\nPlease choose an option:");
+            Console.WriteLine("1. Show Balance");
+            Console.WriteLine("2. Deposit Money");
+            Console.WriteLine("3. Withdraw Money");
+            Console.WriteLine("4. Exit");
+
+            Console.Write("Your choice: ");
+            string input = Console.ReadLine();
+
+            switch (input)
+            {
+                case "1":
+                    Console.WriteLine($"Your balance is: {balance:C}");
+                    break;
+
+                case "2":
+                    Console.Write("Enter amount to deposit: ");
+                    if (decimal.TryParse(Console.ReadLine(), out decimal deposit) && deposit > 0)
+                    {
+                        balance += deposit;
+                        Console.WriteLine("Deposit successful!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid deposit amount.");
+                    }
+                    break;
+
+                case "3":
+                    Console.Write("Enter amount to withdraw: ");
+                    if (decimal.TryParse(Console.ReadLine(), out decimal withdraw) && withdraw > 0)
+                    {
+                        if (withdraw > balance)
+                        {
+                            Console.WriteLine("Insufficient funds.");
+                        }
+                        else
+                        {
+                            balance -= withdraw;
+                            Console.WriteLine("Withdrawal successful!");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid withdrawal amount.");
+                    }
+                    break;
+
+                case "4":
+                    Console.WriteLine("Thank you for using the ATM. Goodbye!");
+                    running = false;
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice. Please try again.");
+                    break;
+            }
+        }
+    }
+}
