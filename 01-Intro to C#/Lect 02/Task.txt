@@ -1,0 +1,3 @@
+01- we have a simple system to store names of students only so foreach group we take the Number from user then store their names in our system implement this part as a c# program 
+
+02- each student at our system has 4 grads so we need to store them then get total grad of the student 
