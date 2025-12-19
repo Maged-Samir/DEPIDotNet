@@ -1,0 +1,39 @@
+Category(CategoryID, CategoryName, Description)
+
+Product(ProductID, ProductName, Description, Price, ManufacturingDate, CategoryID)
+
+Supplier(SupplierID, SupplierName, Phone, Address)
+
+ProductSupplier(ProductID, SupplierID)
+
+Warehouse(WarehouseID, Location, Capacity)
+
+ProductWarehouse(ProductID, WarehouseID, Quantity)
+
+Orders(OrderID, OrderDate, Status)
+
+OrderItem(OrderID, ProductID, Quantity, UnitPrice)
+
+According to the previous schema we need to solve the next queries 
+------------------------------------------------------------------------------
+Display all products in the system.
+
+Display the product name and price for all products.
+
+Display all categories.
+
+Display all products whose price is greater than 1000.
+
+Display all orders with status Completed.
+
+Display all suppliers with their phone numbers.
+------------------------------------------------------------------------------
+Display each product with its category name.
+
+Display all products that belong to the Electronics category.
+
+Display the number of products in each category.
+
+Display categories that do not contain any products.
+
+Display products along with their manufacturing dates and category names.
