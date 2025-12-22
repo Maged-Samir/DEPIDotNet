@@ -1,0 +1,20 @@
+with the previous schema
+we need to apply another group of queries 
+
+Display suppliers and the products they supply.
+Display all suppliers for a specific product (use a given ProductID).
+Display products supplied by more than one supplier.
+Display products stored in warehouses along with their quantities.
+Display warehouses that store a specific product.
+-------------------------------------------------------------------------
+Display all products included in each order.
+Display order details including product name and quantity.
+Display the total price of each order item (Quantity × Unit Price).
+Display all orders along with their total amounts.
+Display orders that contain more than one product.
+--------------------------------------------------------------------------
+Display the total quantity sold for each product.
+Display the top 3 most sold products.
+Display suppliers who supply more than 3 products.
+Display warehouses that store more than 100 units in total.
+Display categories whose products have an average price greater than 2000.
