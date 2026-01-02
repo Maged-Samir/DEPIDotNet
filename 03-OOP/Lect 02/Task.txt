@@ -1,0 +1,15 @@
+Task 01
+
+A small store wants to manage basic information about its products using a Array 
+Create a struct for Product contains Id,Name,Price,Qty
+In the Main method:
+Create an array of Product with a fixed size of 5.
+Fill the array with data entered by the user.
+Display all products in a readable format.
+
+----------------------------------------------------------------------------------------
+Task 02
+A company wants to build a simple Employee Management System to manage its employees
+Create a class named Employee contains Id,FullName,salary,Department
+in a main method create array of Employees
+
