@@ -1,0 +1,7 @@
+Create a simple C# console application to manage tracks and courses, where each track can have an array of courses. Use a base class Track with properties like TrackId, TrackName, and DurationInMonths, and a derived class Course with additional properties such as CourseId, CourseName, and Hours.
+Note that we have different types of Courses as next 
+ProgrammingCourse → adds Language or Level
+DesignCourse → adds Tools or Specialization
+MathCourse → adds Difficulty or Credits
+
+ Implement constructors that demonstrate constructor chaining with the base keyword, and add a C# indexer in the Track class to access courses by index. Provide methods to add courses to a track and display all courses. In Main, create a few tracks with multiple courses, use the indexer to access courses, and display their information, applying inheritance, composition, and indexers together.
