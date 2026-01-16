@@ -1,0 +1,6 @@
+C:\Users\LOQ\Desktop\UserService\UserService\bin\Debug\UserService.dll
+C:\Users\LOQ\Desktop\UserService\UserService\bin\Debug\UserService.pdb
+C:\Users\LOQ\Desktop\UserService\UserService\obj\Debug\UserService.csproj.AssemblyReference.cache
+C:\Users\LOQ\Desktop\UserService\UserService\obj\Debug\UserService.csproj.CoreCompileInputs.cache
+C:\Users\LOQ\Desktop\UserService\UserService\obj\Debug\UserService.dll
+C:\Users\LOQ\Desktop\UserService\UserService\obj\Debug\UserService.pdb

@@ -1,0 +1,2 @@
+Create Simple C# Reference for Person which contain (Id,Name,Age,Email,Password) as a class Library
+then Use it inside your project  which contain Teacher and Student 
