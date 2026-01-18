@@ -1,0 +1,44 @@
+Build a small school system where you define and manipulate Student and Employee data using OOP
+
+Classes & Structs
+1. Person (base class)
+Properties: Name, Age
+
+Override ToString, Equals, GetHashCode, GetType
+
+Abstract method GetRoleDescription()
+
+2. Student (inherits from Person)
+Properties: int Grade,  Marks
+
+Constructor: accepts name, optional age, optional grade = 1
+
+Method: AddMarks(params int[] marks)
+
+Overload:
+
++ operator to combine marks of two students.
+
+== and != by comparing Name and Grade
+
+3. Employee (struct)
+Properties: int ID, decimal Salary
+
+Overload ==, !=, <, > based on Salary
+
+---------------------------------------------------------------------------------------------------
+Implement all classes and structs as described.
+
+Demonstrate:
+
+Overridden System.Object methods
+
+Operator overloading for both class and struct
+
+Use of is, as, and named parameters in method calls
+
+Create a simple console app that:
+
+Creates and manipulates a few Student and Employee instances
+
+Prints all info clearly
