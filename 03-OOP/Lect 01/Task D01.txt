@@ -1,0 +1,3 @@
+Create Simple C# Class For Product (Id,Name,Qty,RegisterationDate)
+Use Getter & Setter 
+then Try Properties 
