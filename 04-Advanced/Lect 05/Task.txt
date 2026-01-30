@@ -1,0 +1,4 @@
+- Create C# Class to Display Exam details 
+Exam ( SubjectName - Hours - Code - Questions<string,List<string>> MCQ with Chooses)
+in Main => test with 4 Questions
+ 

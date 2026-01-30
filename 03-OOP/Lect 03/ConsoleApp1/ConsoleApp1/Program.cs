@@ -43,7 +43,6 @@ namespace ConsoleApp1
             {
                 
             }
-
             public Player(int number, string position)
             {
                 Number = number;

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,44 +10,38 @@ namespace ConsoleApp1
     class Student
     {
         //Storage (Member Variables)
-        //int id;
-        //string name;
-        int age;
+         //int id;
+         //string name;
         //Validation
-
-        #region Setter&Getter
-        //public void set_id(int Id)
-        // {
-        //     id = Id;
-        // }
-        // public int get_id()
-        // {
-        //     return id;
-        // }
-
-        //public void set_name(string Name)
+        #region Setter & Getter
+        //public void Set_id(int _id)
         //{
-        //    name = Name;
+        //    id = _id;
         //}
-        //public string get_name()
+        //public int Get_Id()
+        //{
+        //    return id;
+        //}
+        //public void Set_name(string _name)
+        //{
+        //    name = _name;
+        //}
+        //public string Get_name()
         //{
         //    return name;
         //}
-
-        //public void set_age(int Age)
+        //public void Set_age(int _age)
         //{
-        //    if (Age > 18)
-        //        age = Age;
+        //    if (_age > 0)
+        //        age = _age;
         //}
-        //public int get_age()
+        //public int Get_age()
         //{
         //    return age;
         //} 
-        #endregion
+        #endregion 
 
-
-        #region Properties
-        //Properties
+        //Properity => Encaspulate (Getter & Setter)
         //public int Id
         //{
         //    set { id = value; }
@@ -55,162 +50,120 @@ namespace ConsoleApp1
 
         //public string Name
         //{
-        //    set { name = value; }
-        //    get { return name; }
+        //   set { name = value; }
+        //   get { return name; }
         //}
 
+        int age;
         public int Age
         {
-            set
+            set 
             {
-                if (value > 18)
+                if (value > 0)
                     age = value;
             }
-            get { return age; }
-
+            get { return age; } 
         }
-        #endregion
 
 
-        #region Dynamic Properity
-        // dynamic properties => Member Variable + Property
+
+        //dynamic Properity => Properity + Member Variable
         public int Id { get; set; }
         public string Name { get; set; }
-        #endregion
 
 
 
-        //Opertaions
-        public void PrintInfo()
+        //Operations
+        public void PrintDetails()
         {
-            Console.WriteLine($"Student Id = {Id} - Student Name = {Name} - Student Age = {Age}");
+            Console.WriteLine($"Student Info : {Id} - {Name} - {Age}");
         }
-
+        public void PrintDetails(string pattern)
+        {
+            Console.WriteLine($"Student Info : {Id} ${pattern} {Name} ${pattern} {Age}");
+        }
     }
     class Employee
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public int Salary { get; set; }
 
-
-        public void PrintInfo()
+        public void DisplayInfo()
         {
-            Console.WriteLine($"Employee Id = {Id} - Employee Name = {Name}");
+            Console.WriteLine($"{Id} - {Name} - {Salary}");
         }
 
     }
 
-    class Operation
+    class Calc
     {
-        ////Overloading   => ploymorphism ( many forms )
-        //Overloading => same function name with different signature (different parameters)
-        //Signature => number of parameters or type of parameters or order of parameters
-        public int Sum(int a, int b)
+        // overloading
+        public int Sum(int x,int y)
         {
-            return a + b;
+            return x + y; 
         }
-        public float Sum(float a, float b)
+        public double Sum(double x, double y)
         {
-            return a + b ;
+            return x + y;
         }
-        public int Sum(int a, int b, int c)
+        public int Sum(int x, int y,int z)
         {
-            return a + b + c;
+            return x + y + z;
         }
-    }
 
+    }
 
     internal class Program
     {
         static void Main(string[] args)
         {
             #region Revision
-            //variables
-            //Data types
-            //Casting
-            //Operators
-            //Control Structures
-            //Functions
-            //Debugging
-            //Error Types
-            //Arrays
-            //User Defined Types
-            //Value vs Reference Types
-            //Value Types => Structs, Enums,int, double, char, bool, float, byte, decimal, long, short
-            //Reference Types => Classes, Arrays, Strings,interfaces, Delegates
-
-            #endregion
-            #region OOP
-
-            //OOP => Object Oriented Programming ( concepts & principles )
-            //Programming Paradigms 
-            //Concepts => Classes & Objects
-            //Principles => Abstraction, Encapsulation, Inheritance, Polymorphism(Overloading)
-            //Benefits of OOP => Modularity, Reusability,Extensibility,Maintainability 
+            /*  - Intro to Programming using C# 
+             *  - Database
+             *  - OOP
+             */
             #endregion
 
-
-            #region Setter & Getter 
-            //Student s1 = new Student(); 
-
-            //if(age > 18)
-            //s1.age = 22;
-            //s1.set_id(1);
-            //s1.set_name("Mohamed");
-            //s1.set_age(22);
-            //s1.PrintInfo();
-
-
-
-            //Console.WriteLine(s1.age); XXXXX
-            //Console.WriteLine(s1.get_age());
-
-
-
-            //Student s2 = new Student();
-            //s2.id = 2;
-            //s2.name = "Ahmed";
-            //if(age > 18)
-            //s2.age = 22;
-            //s2.set_id(2);
-            //s2.Id = 20;
-            //s2.set_name("Ahmed");
-            //s2.set_age(12);
-            //s2.PrintInfo(); 
-            #endregion
-            #region Properity 
+            //OOP => Object Orianted Programming (Concepts & Principles)
+            //Programming Paradims 
+            //Concepts => Class & Object
+            //Principles => Abstraction ,Encapsulation , Inheritance ,Polymorphism (Overloading)
+            //Benefits Of OOP => Modularity , Reusability ,EXtensibility , Maintainability
 
             //Student s1 = new Student();
-            //s1.Id = 1;
-            //s1.Name = "Mohamed";
-            //s1.Age = 22;
-            //s1.PrintInfo();
+
+            //s1.id = 1;
+            //s1.name = "Ahmed";
+            ////s1.age = -12;
+            //s1.Set_age(19);
+
+            //s1.PrintDetails();
+
+            //Console.WriteLine($"Student Id {s1.id} his Name {s1.name} and his age is {s1.Get_age()}");
+
 
             //Student s2 = new Student();
-            //s2.Id = 2;
-            //s2.Name = "Ahmed";
-            //s2.Age = 12;
-            //s2.PrintInfo();
+            //s2.Set_id(1);
+            //s2.Set_name("Yousef");
+            //s2.Set_age(10);
 
-            #endregion
-            #region Dynamic Properties
-            //Employee e1 = new Employee();
-            //e1.Id = 101;
-            //e1.Name = "Ali";
-            //e1.PrintInfo(); 
-            #endregion
-            #region Overloading
-            //Operation op = new Operation();
+            //s2.PrintDetails();
 
-            //int result = op.Sum(10, 20);
-            //int result2 = op.Sum(50, 80, 40);
-            //float result3 = op.Sum(5.6f, 8.2f);
+
+            //Student s3 = new Student();
+            //s3.Id = 2;
+            //s3.Name = "Reham";
+            //s3.Age = 21;
+            //s3.PrintDetails();
+
+
+            //Console.WriteLine($"Student Info {s3.Name}");
 
 
 
-            //Console.WriteLine(result);
-            //Console.WriteLine(result2); 
-            #endregion
+            //Calc c = new Calc();
+            //c.Sum(2, 3);
 
         }
     }
