@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Workshop\\DEPIDotNet\\03-OOP\\Lect 04\\ConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB2460C1-C2F1-4D8F-A380-376DD767F21D}|ConsoleApp1\\ConsoleApp1.csproj|d:\\workshop\\depidotnet\\03-oop\\lect 04\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB2460C1-C2F1-4D8F-A380-376DD767F21D}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18FD9351-7D73-41B6-AAFD-A88F1239D1C8}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\loq\\desktop\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18FD9351-7D73-41B6-AAFD-A88F1239D1C8}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,13 +28,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\03-OOP\\Lect 04\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "D:\\Workshop\\DEPIDotNet\\03-OOP\\Lect 04\\ConsoleApp1\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALEAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Program.cs*",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs*",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwGsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T11:07:12.828Z",
+              "WhenOpened": "2026-02-01T17:15:49.538Z",
               "EditorCaption": ""
             }
           ]
