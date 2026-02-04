@@ -38,8 +38,7 @@
               "RelativeToolTip": "ConsoleApp1\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T10:24:20.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-30T10:24:20.985Z"
             },
             {
               "$type": "Document",
@@ -47,9 +46,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\03-OOP\\Lect 03\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "D:\\Workshop\\DEPIDotNet\\03-OOP\\Lect 03\\ConsoleApp1\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAOUAAAAAAAAAAAAzwOQAAAAgAAAAAAAAAA==",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\03-OOP\\Lect 03\\ConsoleApp1\\ConsoleApp1\\Program.cs*",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-04T17:04:26.287Z",
               "EditorCaption": ""
