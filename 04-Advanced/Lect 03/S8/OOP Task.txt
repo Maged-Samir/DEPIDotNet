@@ -1,0 +1,79 @@
+Smart Vehicle Rental System
+
+implement a Console Application that simulates a Smart Vehicle Rental System.
+
+The system represents a rental company that manages different types of vehicles and allows customers to rent them.
+------------------------------------------------------------------------------------------------------
+Vehicle Types
+
+The system must support multiple vehicle types.
+
+Each vehicle must contain common information such as:
+
+Unique Identifier
+
+Brand
+
+Model
+
+Rental Price Per Day
+
+Each vehicle type must also include its own specific attributes.
+
+Examples (for inspiration only):
+
+Car → Number of Doors
+
+Motorcycle → Helmet Included
+
+Truck → Load Capacity
+
+----------------------------------------------------------
+Customers
+
+The system must manage customers.
+
+Each customer must contain:
+
+Unique Identifier
+
+Name
+
+Contact Information
+-----------------------------------------------------------
+Rentals
+
+The system must allow:
+
+Renting a vehicle
+Calculating rental cost
+Displaying rental details
+
+Each rental must associate:
+
+A customer
+
+A vehicle
+
+Number of rental days
+-------------------------------------------------------------
+Your application should allow:
+
+Adding vehicles
+
+Displaying available vehicles
+
+Renting vehicles
+
+Displaying rental summaries
+----------------------------------------------------------------
+Inside Main(), create a menu similar to:
+
+1. Add Vehicle
+2. List Vehicles
+3. Add Customer
+4. List Customers
+5. Rent Vehicle
+6. Show Rentals
+7. Exit
+

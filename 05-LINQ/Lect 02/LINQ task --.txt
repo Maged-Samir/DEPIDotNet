@@ -1,0 +1,46 @@
+public class Student
+{
+    public int Id { get; set; }
+    public string FirstName { get; set; } = string.Empty;
+    public string LastName { get; set; } = string.Empty;
+    public int Age { get; set; }
+    public string Location { get; set; } = string.Empty;
+}
+
+
+List<Student> students = new List<Student>
+{
+    new Student { Id = 1, FirstName = "Ali",    LastName = "Hassan",  Age = 19, Location = "Cairo" },
+    new Student { Id = 2, FirstName = "Mona",   LastName = "Fathy",   Age = 21, Location = "Alex" },
+    new Student { Id = 3, FirstName = "Youssef",LastName = "Omar",    Age = 22, Location = "Cairo" },
+    new Student { Id = 4, FirstName = "Sara",   LastName = "Mostafa", Age = 18, Location = "Giza" },
+    new Student { Id = 5, FirstName = "Khaled", LastName = "Adel",    Age = 23, Location = "Mansoura" },
+    new Student { Id = 6, FirstName = "Nada",   LastName = "Hany",    Age = 20, Location = "Cairo" },
+    new Student { Id = 7, FirstName = "Omar",   LastName = "Hussein", Age = 24, Location = "Alex" },
+};
+
+
+
+LINQ Exercises – .NET LINQ Practice Sheet
+
+// 1. Filter students aged above 20
+// 2. Find the first student from Cairo
+// 3. Get total age of all students
+// 4. Return students sorted by Age, then by FirstName
+// 5. Project only Id and FirstName into a new anonymous object
+// 6. Check if any student is from Alex
+// 7. Check if all students are aged 18 or above
+// 8. Get student with Id == 5 using Single
+// 9. Get distinct Locations from the student list
+// 10. Convert students list into a Dictionary with key = Id
+// 11. Group students by Location and print FirstNames
+// 13. Find student(s) with the maximum age
+// 14. Count how many students are in each Location
+
+
+List<int> nums = new() { 1, 2, 3 };
+var query = nums.Select(x => x * 2);
+nums.Add(4);
+
+// Q: What will be printed and why?
+// Expected: Show effect of deferred execution
