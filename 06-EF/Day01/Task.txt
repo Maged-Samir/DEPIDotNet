@@ -1,0 +1,2 @@
+Create C# Model for an Empolyee where it describe with (Id,Name,Address,Salary)
+after that use Entity Framework tool to mapping it into SQL Database 

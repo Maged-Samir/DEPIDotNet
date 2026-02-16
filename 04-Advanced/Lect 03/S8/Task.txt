@@ -1,0 +1,2 @@
+Create an Employee Class which contain Id, Name, Age, Gender and Salary
+note that gender is an Enum after that create your custom Exception (InvaliedSalaryException between 8000 to 10000) and throw it if User Enter Not Valid Salary 
