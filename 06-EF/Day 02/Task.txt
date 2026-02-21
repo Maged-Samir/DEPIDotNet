@@ -1,0 +1,3 @@
+Create C# App Using EF tool for Mapping 4 Models as Next 
+Student , Teacher , Department , Course => Use different ways of Creating Models 
+in Main create CRUD Operations for the Student Model 
