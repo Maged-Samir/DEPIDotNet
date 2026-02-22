@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD38002E-B724-4267-9D34-8AE8C7A5F0CB}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\loq\\desktop\\consoleapp1\\consoleapp1\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD38002E-B724-4267-9D34-8AE8C7A5F0CB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD38002E-B724-4267-9D34-8AE8C7A5F0CB}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\loq\\desktop\\consoleapp1\\consoleapp1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD38002E-B724-4267-9D34-8AE8C7A5F0CB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD38002E-B724-4267-9D34-8AE8C7A5F0CB}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\loq\\desktop\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD38002E-B724-4267-9D34-8AE8C7A5F0CB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD38002E-B724-4267-9D34-8AE8C7A5F0CB}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\loq\\desktop\\consoleapp1\\consoleapp1\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD38002E-B724-4267-9D34-8AE8C7A5F0CB}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:45:29.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Teacher.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Teacher.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Teacher.cs",
+              "RelativeToolTip": "ConsoleApp1\\Teacher.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:38:21.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Student.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Student.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Student.cs*",
+              "RelativeToolTip": "ConsoleApp1\\Student.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:36:35.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Exam.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Exam.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Exam.cs",
+              "RelativeToolTip": "ConsoleApp1\\Exam.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAIA8wCcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:30:05.149Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1170,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
