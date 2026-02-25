@@ -1,0 +1,5 @@
+Create C# Program for Employee Registeration System 
+Our System Consist Of Three Models Employee (Id,Name,Age,Salary), MedicalInsurance(MedicalId,Amount) SocialInsurance(MemberShipId,Subscription)
+
+We need to Notify the MedicalInsurance and SocialInsurance Using Events when we added New Employee 
+to Our System  
