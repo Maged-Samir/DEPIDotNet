@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Migrations\\20260228134720_AddTeacherModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleApp1\\Migrations\\20260228134720_AddTeacherModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690B3CD5-B785-46D2-B76F-33628E5C6660}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\loq\\desktop\\consoleapp1\\consoleapp1\\context\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690B3CD5-B785-46D2-B76F-33628E5C6660}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\context\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690B3CD5-B785-46D2-B76F-33628E5C6660}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\loq\\desktop\\consoleapp1\\consoleapp1\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690B3CD5-B785-46D2-B76F-33628E5C6660}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 194,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260228134720_AddTeacherModel.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Migrations\\20260228134720_AddTeacherModel.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Migrations\\20260228134720_AddTeacherModel.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Migrations\\20260228134720_AddTeacherModel.cs",
+              "RelativeToolTip": "ConsoleApp1\\Migrations\\20260228134720_AddTeacherModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T13:47:21.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Context\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Context\\SchoolDbContext.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Context\\SchoolDbContext.cs",
+              "RelativeToolTip": "ConsoleApp1\\Context\\SchoolDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA0wBEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T13:46:15.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\ConsoleApp1\\ConsoleApp1\\Models\\Teacher.cs",
+              "RelativeToolTip": "ConsoleApp1\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T13:45:23.729Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 36,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
