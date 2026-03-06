@@ -1,0 +1,10 @@
+Create Simple C# App with DataBase Using EF 
+Student,Teacher,Department,
+Relations 
+Student --- Teacher One to One
+Student --- Department One to Many 
+Teacher --- Department Many to Many 
+
+After that Test Your CRUD Operations from Main 
+Ask User to Enter His Data 
+ 
