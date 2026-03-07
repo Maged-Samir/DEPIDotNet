@@ -1,0 +1,24 @@
+Create a C# Console Application using Entity Framework Core to model a simple Company system.
+
+The system should store data about:
+
+• Product → Id, Name, Price, Quantity
+• Category → Id, Name
+• Customer → Id, Name, Phone
+• Supplier → Id, Name, ContactEmail
+• Order → Id, OrderDate
+
+Define the relationships:
+
+• A Category has many Products
+• A Supplier supplies many Products
+• A Customer has many Orders
+• An Order contains many Products
+
+Requirements:
+
+• Use EF Core (Code First)
+• Create DbContext and DbSets
+• Configure relationships
+• Apply Migrations
+• Perform basic CRUD operations
