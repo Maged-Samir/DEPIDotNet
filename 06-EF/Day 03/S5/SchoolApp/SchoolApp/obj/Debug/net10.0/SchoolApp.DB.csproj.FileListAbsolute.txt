@@ -1,0 +1,12 @@
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\bin\Debug\net10.0\SchoolApp.DB.deps.json
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\bin\Debug\net10.0\SchoolApp.DB.dll
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\bin\Debug\net10.0\SchoolApp.DB.pdb
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\obj\Debug\net10.0\SchoolApp.DB.csproj.AssemblyReference.cache
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\obj\Debug\net10.0\SchoolApp.DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\obj\Debug\net10.0\SchoolApp.DB.AssemblyInfoInputs.cache
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\obj\Debug\net10.0\SchoolApp.DB.AssemblyInfo.cs
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\obj\Debug\net10.0\SchoolApp.DB.csproj.CoreCompileInputs.cache
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\obj\Debug\net10.0\SchoolApp.DB.dll
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\obj\Debug\net10.0\refint\SchoolApp.DB.dll
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\obj\Debug\net10.0\SchoolApp.DB.pdb
+C:\Users\LOQ\Desktop\SchoolApp\SchoolApp\obj\Debug\net10.0\ref\SchoolApp.DB.dll

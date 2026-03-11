@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SchoolApp.WFA/SchoolApp.WFA.csproj" />
+  <Project Path="SchoolApp/SchoolApp.DB.csproj" />
+</Solution>
