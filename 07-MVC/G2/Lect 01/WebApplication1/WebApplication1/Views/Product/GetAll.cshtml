@@ -1,0 +1,11 @@
+﻿<h1> All Products Page </h1>
+
+@foreach(var item in Model)
+{
+    <div>
+        <h2>@item.Id</h2>
+        <h2>@item.Name</h2>
+        <h2>@item.Price</h2>
+        <hr />
+    </div>
+}
