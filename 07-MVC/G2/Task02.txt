@@ -1,0 +1,11 @@
+-Models with Ef 
+-Types of Views (Loosely Type View & Strong Type View)
+-Additional Data from Action to View ( ViewData & ViewBag)
+
+
+-Create Simple App for Product & Category 
+-Product (Id,Name,Price,Qty)
+-Category (Id,Name)
+
+Create for each model ( Index & Details) 
+in Details view show Additional Data for Brands 

@@ -1,0 +1,49 @@
+﻿@* Strong   Type View *@
+@model List<Department>
+
+
+@* Loosely Type View *@
+<h1>All Departments</h1>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Number</th>
+            <th scope="col">Department Name</th>
+            <th scope="col"> Actions </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td> <a href="/Department/Details/@item.Id">Details</a> </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+            Locations using ViewData
+        </div>
+        <ul class="list-group list-group-flush">
+           @foreach(var item in (List<string>)ViewData["data"])
+        {
+                <li class="list-group-item">@item</li>
+        }
+        </ul>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+            Locations using ViewBag
+        </div>
+        <ul class="list-group list-group-flush">
+            @foreach (var item in ViewBag.data2)
+            {
+                <li class="list-group-item">@item</li>
+            }
+        </ul>
+    </div>
