@@ -3087,11 +3087,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\WebApp.csproj",
+      "projectPath": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\WebApp.csproj",
       "packagesPath": "C:\\Users\\LOQ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\obj\\",
+      "outputPath": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

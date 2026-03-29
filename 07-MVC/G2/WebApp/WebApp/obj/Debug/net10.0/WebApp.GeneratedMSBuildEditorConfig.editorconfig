@@ -19,45 +19,49 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\LOQ\Desktop\WebApp\WebApp\
+build_property.ProjectDir = D:\Workshop\DEPIDotNet\07-MVC\G2\WebApp\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\LOQ\Desktop\WebApp\WebApp
+build_property.MSBuildProjectDirectory = D:\Workshop\DEPIDotNet\07-MVC\G2\WebApp\WebApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/LOQ/Desktop/WebApp/WebApp/Views/Department/Details.cshtml]
+[D:/Workshop/DEPIDotNet/07-MVC/G2/WebApp/WebApp/Views/Department/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOQ/Desktop/WebApp/WebApp/Views/Department/Index.cshtml]
+[D:/Workshop/DEPIDotNet/07-MVC/G2/WebApp/WebApp/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOQ/Desktop/WebApp/WebApp/Views/Home/Index.cshtml]
+[D:/Workshop/DEPIDotNet/07-MVC/G2/WebApp/WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOQ/Desktop/WebApp/WebApp/Views/Home/Privacy.cshtml]
+[D:/Workshop/DEPIDotNet/07-MVC/G2/WebApp/WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOQ/Desktop/WebApp/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Workshop/DEPIDotNet/07-MVC/G2/WebApp/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOQ/Desktop/WebApp/WebApp/Views/_ViewImports.cshtml]
+[D:/Workshop/DEPIDotNet/07-MVC/G2/WebApp/WebApp/Views/Student/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workshop/DEPIDotNet/07-MVC/G2/WebApp/WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOQ/Desktop/WebApp/WebApp/Views/_ViewStart.cshtml]
+[D:/Workshop/DEPIDotNet/07-MVC/G2/WebApp/WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LOQ/Desktop/WebApp/WebApp/Views/Shared/_Layout.cshtml]
+[D:/Workshop/DEPIDotNet/07-MVC/G2/WebApp/WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7882z672yd

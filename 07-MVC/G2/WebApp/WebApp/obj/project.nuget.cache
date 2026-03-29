@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eNnySpyKLRs=",
+  "dgSpecHash": "cR7yXfi2zWI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\WebApp.csproj",
+  "projectFilePath": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LOQ\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\LOQ\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

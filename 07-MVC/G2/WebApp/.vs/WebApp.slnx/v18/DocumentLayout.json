@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\WebApp\\",
+  "WorkspaceRootPath": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54AEFD70-6013-438F-BC11-B458DC5E6F18}|WebApp\\WebApp.csproj|c:\\users\\loq\\desktop\\webapp\\webapp\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{54AEFD70-6013-438F-BC11-B458DC5E6F18}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54AEFD70-6013-438F-BC11-B458DC5E6F18}|WebApp\\WebApp.csproj|c:\\users\\loq\\desktop\\webapp\\webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54AEFD70-6013-438F-BC11-B458DC5E6F18}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\g2\\webapp\\webapp\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Department\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-27T13:19:47.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBcAAAAwAAAAAAAAAA==",
+              "Title": "StateController.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Controllers\\StateController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\StateController.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Controllers\\StateController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\StateController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwDMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T11:32:43.537Z",
+              "WhenOpened": "2026-03-29T19:02:11.317Z",
               "EditorCaption": ""
             }
           ]
