@@ -1,0 +1,33 @@
+﻿<h2>List Of Products</h2>
+
+@* @foreach (var item in Model)
+{
+    <h1>@item.Id</h1>
+    <h1>@item.Name</h1>
+    <h1>@item.Price</h1>
+    <h1>@item.Qty</h1>
+    <hr />
+} *@
+
+<table class="table table-bordered table-hover table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Qty</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td>@item.Qty</td>
+            </tr>
+        }
+    </tbody>
+</table>

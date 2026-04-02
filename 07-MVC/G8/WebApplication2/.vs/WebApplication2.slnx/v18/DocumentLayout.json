@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFDE214F-C675-4E3C-B121-3FC2C7E3819A}|WebApplication2\\WebApplication2.csproj|c:\\users\\loq\\desktop\\webapplication2\\webapplication2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFDE214F-C675-4E3C-B121-3FC2C7E3819A}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFDE214F-C675-4E3C-B121-3FC2C7E3819A}|WebApplication2\\WebApplication2.csproj|c:\\users\\loq\\desktop\\webapplication2\\webapplication2\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFDE214F-C675-4E3C-B121-3FC2C7E3819A}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFDE214F-C675-4E3C-B121-3FC2C7E3819A}|WebApplication2\\WebApplication2.csproj|c:\\users\\loq\\desktop\\webapplication2\\webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFDE214F-C675-4E3C-B121-3FC2C7E3819A}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 194,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApplication2\\WebApplication2\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApplication2\\WebApplication2\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T20:02:02.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApplication2\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApplication2\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T20:02:00.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApplication2\\WebApplication2\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApplication2\\WebApplication2\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T20:01:59.001Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 36,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

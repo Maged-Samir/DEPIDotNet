@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07B51192-8A07-4878-9A15-9D479898CDC0}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\webapplication1\\webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B51192-8A07-4878-9A15-9D479898CDC0}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B51192-8A07-4878-9A15-9D479898CDC0}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\webapplication1\\webapplication1\\views\\product\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07B51192-8A07-4878-9A15-9D479898CDC0}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\product\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B51192-8A07-4878-9A15-9D479898CDC0}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\webapplication1\\webapplication1\\views\\product\\getdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07B51192-8A07-4878-9A15-9D479898CDC0}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\product\\getdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B51192-8A07-4878-9A15-9D479898CDC0}|WebApplication1\\WebApplication1.csproj|c:\\users\\loq\\desktop\\webapplication1\\webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B51192-8A07-4878-9A15-9D479898CDC0}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 194,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApplication1\\WebApplication1\\Views\\Product\\GetDetails.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Product\\GetDetails.cshtml",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApplication1\\WebApplication1\\Views\\Product\\GetDetails.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Product\\GetDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-01T19:43:31.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApplication1\\WebApplication1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApplication1\\WebApplication1\\Models\\Product.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T19:42:37.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApplication1\\WebApplication1\\Views\\Product\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Product\\GetAll.cshtml",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApplication1\\WebApplication1\\Views\\Product\\GetAll.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Product\\GetAll.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-01T19:26:17.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApplication1\\WebApplication1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApplication1\\WebApplication1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T19:21:34.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 36,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

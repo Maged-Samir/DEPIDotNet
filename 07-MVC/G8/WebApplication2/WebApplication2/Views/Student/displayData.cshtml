@@ -1,0 +1,32 @@
+﻿<h1>Display Data View Page</h1>
+
+<style>
+    h1 {
+        background-color: antiquewhite;
+    }
+</style>
+
+@* <script>
+    alert("test JS...");
+</script> *@
+
+@{
+    int x = 2000;
+    int y = 500;
+}
+
+<h1>Value Of X = @x </h1>
+
+@if (x > y)
+{
+    <h2>True</h2>
+}
+else
+{
+    <h2>False</h2>
+}
+
+@for(int i =0;i<5;i++)
+{
+    <h1>@i</h1>
+}

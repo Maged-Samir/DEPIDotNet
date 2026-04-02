@@ -1,0 +1,5 @@
+Create Simple MVC App to Display the Employee Data (Id,FirstName,SecondName,Salary,Age)
+-Display All Employees 
+-Display Employee Details 
+-After that Use Entity Framework to map the Employee Model Inside the DB 
+

@@ -1,0 +1,29 @@
+﻿<div>
+    <h2>This is my First View</h2>
+</div>
+
+<style>
+    h2{
+        background-color:antiquewhite;
+    }
+</style>
+@* <script>
+    alert("test Js");
+</script> *@
+
+@{
+    int x = 200;
+    int y = 100;
+}
+
+<h2>Value of X = @x</h2>
+
+@if(x>y)
+{
+    <h2>True</h2>
+}
+
+@for(int i = 0;i< 5;i++)
+{
+    <h2>@i</h2>
+}
