@@ -1,0 +1,25 @@
+﻿@* Storng Type View  *@
+@model Department
+
+@* Looselly Type View  *@
+<h2>Department Details</h2>
+
+<h2>ID : @Model.Id</h2>
+<h2>Name : @Model.Name</h2>
+
+
+<ul class="list-group">
+    <li class="list-group-item">Our Locations</li>
+    @foreach (var item in (List<string>)ViewData["data"])
+    {
+        <li class="list-group-item">@item</li>
+    }
+</ul>
+
+<ul class="list-group">
+    <li class="list-group-item">Our Locations</li>
+    @foreach (var item in ViewBag.data1)
+    {
+        <li class="list-group-item">@item</li>
+    }
+</ul>
