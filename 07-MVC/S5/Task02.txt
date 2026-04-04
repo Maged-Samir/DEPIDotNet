@@ -1,0 +1,6 @@
+-Create Simple App for Product & Category 
+-Product (Id,Name,Price,Qty)
+-Category (Id,Name)
+
+Create for each model ( Index & Details) 
+in Details view show Additional Data for Brands 

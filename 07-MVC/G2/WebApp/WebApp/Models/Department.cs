@@ -2,9 +2,8 @@
 {
     public class Department
     {
-        public int Id { get; set; }
+        public int Id { get; set; }  //EF => PK (identity)
         public string? Name { get; set; }
         public virtual List<Student>? Students { get; set; } = new List<Student>();
-
     }
 }

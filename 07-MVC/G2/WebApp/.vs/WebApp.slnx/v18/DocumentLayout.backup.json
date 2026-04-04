@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\g2\\webapp\\webapp\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\g2\\webapp\\webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StateController.cs",
-              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Controllers\\StateController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\StateController.cs",
-              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Controllers\\StateController.cs*",
-              "RelativeToolTip": "WebApp\\Controllers\\StateController.cs*",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwDkAAABAAAAAAAAAAA==",
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Controllers\\DepartmentController.cs*",
+              "RelativeToolTip": "WebApp\\Controllers\\DepartmentController.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwE0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T19:02:11.317Z",
+              "WhenOpened": "2026-04-03T11:51:25.242Z",
               "EditorCaption": ""
             }
           ]

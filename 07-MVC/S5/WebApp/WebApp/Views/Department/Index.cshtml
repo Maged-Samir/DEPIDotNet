@@ -1,0 +1,41 @@
+﻿@* Looselly Type View *@
+@* Storng Type View *@
+
+@model List<Department>
+
+<h2>List Of Department</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <td>@item.Name</td>
+                <td><a href="/Department/Details/@item.Id">Details</a></td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<ul class="list-group">
+    @foreach (var item in (List<string>)ViewData["data"])
+    {
+        <li class="list-group-item">@item</li>
+    }
+</ul>
+
+<ul class="list-group">
+    @foreach (var item in ViewBag.data2)
+    {
+        <li class="list-group-item">@item</li>
+    }
+</ul>

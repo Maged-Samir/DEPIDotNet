@@ -2,6 +2,8 @@
 @model List<Department>
 
 
+    <a href="/Department/New" class="btn btn-primary">Add New Department</a>
+
 @* Loosely Type View *@
 <h1>All Departments</h1>
 
@@ -19,12 +21,14 @@
                 <td>@item.Id</td>
                 <td>@item.Name</td>
                 <td> <a href="/Department/Details/@item.Id">Details</a> </td>
+                <td> <a href="/Department/Edit/@item.Id">Edit</a> </td>
+                    <td> <a href="/Department/Delete/@item.Id">Delete</a> </td>
             </tr>
         }
     </tbody>
 </table>
 
-    <div class="card" style="width: 18rem;">
+@*     <div class="card" style="width: 18rem;">
         <div class="card-header">
             Locations using ViewData
         </div>
@@ -34,9 +38,9 @@
                 <li class="list-group-item">@item</li>
         }
         </ul>
-    </div>
+    </div> *@
 
-    <div class="card" style="width: 18rem;">
+@*     <div class="card" style="width: 18rem;">
         <div class="card-header">
             Locations using ViewBag
         </div>
@@ -46,4 +50,4 @@
                 <li class="list-group-item">@item</li>
             }
         </ul>
-    </div>
+    </div> *@
