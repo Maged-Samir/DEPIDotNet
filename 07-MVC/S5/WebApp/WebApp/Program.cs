@@ -8,6 +8,10 @@ namespace WebApp
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+            });
 
             var app = builder.Build();
 
@@ -21,8 +25,25 @@ namespace WebApp
 
             app.UseHttpsRedirection();
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
+            app.UseSession();
+
+            app.Use(async (context, next) =>
+            {
+                Console.WriteLine($"Our Request Path:{context.Request.Path}");
+                await next();
+            });
+
+            app.Use(async (context, next) =>
+            {
+                if (context.Request.Query["name"] == "admin")
+                {
+                   await context.Response.WriteAsync("Access Denied");
+                    return;
+                }
+                await next();
+            });
 
             app.MapStaticAssets();
             app.MapControllerRoute(

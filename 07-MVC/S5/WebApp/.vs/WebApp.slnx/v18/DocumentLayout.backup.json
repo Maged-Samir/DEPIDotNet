@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\WebApp\\",
+  "WorkspaceRootPath": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47180785-84C1-4305-8647-907AB3ACB116}|WebApp\\WebApp.csproj|c:\\users\\loq\\desktop\\webapp\\webapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47180785-84C1-4305-8647-907AB3ACB116}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s5\\webapp\\webapp\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47180785-84C1-4305-8647-907AB3ACB116}|WebApp\\WebApp.csproj|c:\\users\\loq\\desktop\\webapp\\webapp\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{47180785-84C1-4305-8647-907AB3ACB116}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s5\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\Views\\Student\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Student\\Details.cshtml",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\Views\\Student\\Details.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Student\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-03T16:38:08.421Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwDIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T19:51:47.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\LOQ\\Desktop\\WebApp\\WebApp\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswBwAAAApAAAAAAAAAA==",
+              "Title": "StateController.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Controllers\\StateController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\StateController.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Controllers\\StateController.cs*",
+              "RelativeToolTip": "WebApp\\Controllers\\StateController.cs*",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAUwFYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T16:03:29.056Z",
+              "WhenOpened": "2026-04-08T19:44:36.509Z",
               "EditorCaption": ""
             }
           ]
