@@ -1,0 +1,35 @@
+﻿@model Department
+
+<div>
+    <label for="Name">Name</label>
+    <input type="text" id="Name" name="Name" value="@Model.Name" class="form-control" />
+</div>
+
+@* HTML Helper *@
+@* <div>
+    @Html.Label("Name")
+    @Html.TextBox("Names", null, new { @class = "form-control" })
+</div> *@
+
+<div>
+    @Html.LabelFor(d=>d.Name)
+    @Html.TextBoxFor(d => d.Name, null, new { @class = "form-control" })
+</div>
+
+@* Tag Helpers *@
+<div>
+<label asp-for="Name">Name</label>
+<input asp-for="Name" class="form-control" />
+</div>
+
+
+@* action="/Department/SaveNew" *@
+<form method="get" asp-action="SaveNew" asp-controller="Department">
+    <div>
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div>
+        <input type="submit" value="Save" />
+    </div>
+</form>

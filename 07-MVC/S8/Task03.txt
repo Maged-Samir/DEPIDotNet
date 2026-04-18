@@ -1,0 +1,5 @@
+According to the Product & Category Of The previous Task 
+we Need to display all products as group of cards and each card contain two buttons 
+One for Details and another for add to cart
+when the user add the product to cart Use Cookies to Do That 
+after that create a Separated Page to Display all Added Products 

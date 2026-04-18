@@ -8,7 +8,7 @@
         public string? Grade { get; set; }
         public string? Division { get; set; }
 
-        public int DepartmentId { get; set; }
+        public int? DepartmentId { get; set; }
         public virtual Department? Department { get; set; }
 
     }

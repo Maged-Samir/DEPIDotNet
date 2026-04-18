@@ -1,0 +1,62 @@
+﻿@model Department
+
+@* <div>
+    <label for="Name">Name</label>
+    <input type="text" id="Name" name="Name" value="" class="form-control" />
+</div>
+ *@
+
+@* HTML Helpers *@
+@* <div>
+    @Html.Label("Name")
+    @Html.TextBox("Names", null, new { @class = "form-control" })
+</div> *@
+
+
+@* <div>
+    @Html.LabelFor(d=>d.Name)
+    @Html.TextBoxFor(d => d.Name, null, new { @class = "form-control" })
+</div>
+
+<a href="/Student/Index" class="btn btn-primary">Show</a>
+
+@Html.ActionLink("Show", "Index", "Student", null, new { @class = "btn btn-primary" })
+
+
+@using(Html.BeginForm("SaveNew","Student",FormMethod.Get))
+{
+    <div>
+        @Html.LabelFor(d => d.Name)
+        @Html.TextBoxFor(d => d.Name, null, new { @class = "form-control" })
+    </div>
+} *@
+
+@* Tag Helpers *@
+
+
+
+
+<div>
+    <label for="Name">Name</label>
+    <input type="text" id="Name" name="Name" value="" class="form-control" />
+</div>
+
+<div>
+    <label asp-for="Name">Name</label>
+    <input asp-for="Name" class="form-control" />
+</div>
+
+@* action="/Student/Details/5" *@
+<form asp-action="Details" asp-controller="Student" asp-route-id="@Model.Id" method="get">
+    <div>
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Name">Name</label>
+        <input asp-for="Location" class="form-control" />
+    </div>
+
+    <a href="/Student/SaveNew">Save</a>
+    <a asp-action="SaveNew" asp-controller="Student">Save</a>
+</form>

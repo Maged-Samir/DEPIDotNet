@@ -1,0 +1,38 @@
+﻿@* Strong   Type View *@
+@model List<Student>
+
+
+@* Loosely Type View *@
+<h1>All Students</h1>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Department</th>
+            <th scope="col"> Actions
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Address</td>
+                    <td>@item.Department.Name</td>
+
+                    <td>
+                        <a href="/Student/Details/@item.Id">Details</a>
+                        <a href="/Student/Edit/@item.Id">Edit</a>
+                        <a href="/Student/Delete/@item.Id">Delete</a>
+                    </td>
+                   
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="/Student/New" class="btn btn-primary">Add New Student</a>

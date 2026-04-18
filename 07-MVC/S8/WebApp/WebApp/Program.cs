@@ -8,6 +8,7 @@ namespace WebApp
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSession(s => s.IdleTimeout = TimeSpan.FromMinutes(20));
 
             var app = builder.Build();
 
@@ -15,13 +16,31 @@ namespace WebApp
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseRouting();
+            app.UseSession();
 
+            ////Logging
+            //app.Use(async (contex, next) =>
+            //{
+            //    Console.WriteLine($"Request path => {contex.Request.Path}");
+            //    await next();
+            //});
+            ////Block Users 
+            //app.Use(async (contex, next) =>
+            //{
+            //    if (contex.Request.Query["role"] != "admin")
+            //    {
+            //        await contex.Response.WriteAsync("Access Denied...");
+            //        return;
+            //    }
+            //    await next();
+            //});
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapStaticAssets();

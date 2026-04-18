@@ -1,0 +1,39 @@
+﻿@model List<Student>
+
+<h2>List Of Student</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Grade</th>
+            <th scope="col">Division</th>
+            <th scope="col">Department</th>
+
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <td>@item.Name</td>
+                <td>@item.Address</td>
+                <td>@item.Grade</td>
+                <td>@item.Division</td>
+                <td>@item.Department.Name</td>
+
+                <td>
+                    <a href="/Student/Details/@item.Id">Details</a>
+                    <a href="/Student/Edit/@item.Id">Edit</a>
+                    <a href="/Student/Delete/@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Student/New" class="btn btn-primary">Add New Student</a>

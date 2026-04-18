@@ -6,7 +6,7 @@
         public string? Name { get; set; }
         public string? Location { get; set; }
 
-        public virtual List<Student> Students { get; set; } = new List<Student>();
+        public virtual List<Student>? Students { get; set; } = new List<Student>();
 
     }
 }

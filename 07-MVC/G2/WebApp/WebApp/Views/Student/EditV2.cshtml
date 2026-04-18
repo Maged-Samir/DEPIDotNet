@@ -1,0 +1,23 @@
+﻿@model Student
+<h2>Edit Student Form Version 02</h2>
+@{
+    SelectList deptlist = new SelectList(ViewBag.data, "Id", "Name");
+}
+<form method="get" asp-action="SaveEdit" asp-controller="Student" asp-route-id="@Model.Id">
+    <div>
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Address">Address</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Name">Department</label>
+        <select asp-for="DepartmentId" asp-items="deptlist" class="form-control">
+        </select>
+    </div>
+    <div>
+        <input type="submit" value="Edit" class="btn btn-primary mt-2" />
+    </div>
+</form>

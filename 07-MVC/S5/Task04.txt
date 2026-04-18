@@ -1,0 +1,7 @@
+According to the Product & Category Of The previous Task 
+We need to improve our APP with Different Operations Like ( Create, Edit and Remove) for Product & Category
+also Add New Model Called Order => Note the relation will be Many to Many Between Order & Product 
+so you will need to create a new Model for the relation Called it Order Items then
+
+Add Button In the Page Which Display All Products Of the Card Called the button Check Out 
+when User Click On It (Add All Products Of the Cart into Order Items And Fill The Order Model ) in the same time 
