@@ -1,0 +1,17 @@
+﻿@model Department
+
+<h2>Edit Department</h2>
+
+<form method="get" action="/Department/SaveEdit/@Model.Id">
+    <div class="col">
+        <label for="Name">Name</label>
+        <input type="text" id="Name" name="Name" value="@Model.Name" class="form-control" />
+    </div>
+    <div class="col">
+        <label for="Location">Location</label>
+        <input type="text" id="Location" name="Location" value="@Model.Location" class="form-control" />
+    </div>
+    <div>
+        <input type="submit" value="Edit" class="btn btn-primary mt-2" />
+    </div>
+</form>

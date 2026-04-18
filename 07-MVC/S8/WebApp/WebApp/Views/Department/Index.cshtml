@@ -16,8 +16,14 @@
             <tr>
                 <th scope="row">@item.Id</th>
                 <td>@item.Name</td>
-                <td><a href="/Department/Details/@item.Id">Details</a></td>
+                <td>
+                    <a href="/Department/Details/@item.Id">Details</a>
+                    <a href="/Department/Edit/@item.Id">Edit</a>
+                    <a href="/Department/Delete/@item.Id">Delete</a>
+                </td>
             </tr>
         }
     </tbody>
 </table>
+
+<a href="/Department/New" class="btn btn-primary">Add New Department</a>

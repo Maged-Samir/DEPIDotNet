@@ -34,8 +34,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Department/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Department/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxOZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Home/Index.cshtml]
@@ -56,6 +64,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Student/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Student/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Student/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxOZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/_ViewImports.cshtml]
