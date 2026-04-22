@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s5\\webapp\\webapp\\views\\student\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\student\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s5\\webapp\\webapp\\views\\student\\editv2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\student\\editv2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s5\\webapp\\webapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s5\\webapp\\webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s5\\webapp\\webapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 194,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditV2.cshtml",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Views\\Student\\EditV2.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Student\\EditV2.cshtml",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Views\\Student\\EditV2.cshtml*",
+              "RelativeToolTip": "WebApp\\Views\\Student\\EditV2.cshtml*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T19:37:57.164Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -34,41 +47,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "New.cshtml",
-              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Views\\Student\\New.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Student\\New.cshtml",
-              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Views\\Student\\New.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Student\\New.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-17T16:58:56.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\StudentController.cs",
               "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Controllers\\StudentController.cs",
               "RelativeToolTip": "WebApp\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAEQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T16:58:45.604Z",
+              "WhenOpened": "2026-04-22T19:16:49.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\DepartmentController.cs",
-              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\Student.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S5\\WebApp\\WebApp\\Models\\Student.cs",
+              "RelativeToolTip": "WebApp\\Models\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T16:39:26.591Z",
+              "WhenOpened": "2026-04-22T19:11:19.678Z",
               "EditorCaption": ""
             }
           ]

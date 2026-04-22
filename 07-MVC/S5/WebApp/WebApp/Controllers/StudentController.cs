@@ -71,7 +71,7 @@ namespace WebApp.Controllers
         public IActionResult SaveEdit(Student student)
         {
             var oldStudent = context.Students.SingleOrDefault(s => s.Id == student.Id);
-            if (oldStudent != null) //Validation
+            if (ModelState.IsValid) //Validation
             {
                 oldStudent.Name = student.Name;
                 oldStudent.Address = student.Address;
@@ -83,6 +83,7 @@ namespace WebApp.Controllers
                 context.SaveChanges();
                 return RedirectToAction("Index");
             }
+            ViewData["data"] = context.Departments.ToList();
             return View("EditV2", student);
         }
         public ActionResult Delete(int id)
