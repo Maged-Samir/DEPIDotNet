@@ -58,6 +58,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Shared/_AdvancedLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZHZhbmNlZExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Shared/_CustomLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DdXN0b21MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,12 +78,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Student/EditV2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0VjIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Student/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxOZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/Student/TestHelpers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxUZXN0SGVscGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Workshop/DEPIDotNet/07-MVC/S8/WebApp/WebApp/Views/_ViewImports.cshtml]

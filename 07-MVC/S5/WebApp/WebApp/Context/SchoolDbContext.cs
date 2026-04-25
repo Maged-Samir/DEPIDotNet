@@ -5,13 +5,21 @@ namespace WebApp.Context
 {
     public class SchoolDbContext : DbContext
     {
+        public SchoolDbContext()
+        {
+            
+        }
+        public SchoolDbContext(DbContextOptions options):base(options)
+        {
+            
+        }
         public virtual DbSet<Department> Departments { get; set; }
         public virtual DbSet<Student> Students { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=.;Database=SchoolV3;Integrated Security =True;Encrypt =False");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("Server=.;Database=SchoolV3;Integrated Security =True;Encrypt =False");
+        //}
 
     }
 }

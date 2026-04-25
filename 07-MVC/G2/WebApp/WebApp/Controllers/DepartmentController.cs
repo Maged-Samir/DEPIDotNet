@@ -1,38 +1,36 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApp.Context;
+using WebApp.Managers;
 using WebApp.Models;
+using WebApp.Services;
 
 namespace WebApp.Controllers
 {
     public class DepartmentController : Controller
     {
-        SchoolDbContext context = new SchoolDbContext();
-        //Department/Index
+        //DepartmentRepository departmentRepository = new DepartmentRepository();
+
+        IDepartmentManager departmentRepository;
+        public DepartmentController(IDepartmentManager _departmentRepository)
+        {
+            departmentRepository = _departmentRepository;
+        }
+
         public IActionResult Index()
         {
-            var departments = context.Departments.ToList();
-
+            var departments = departmentRepository.GetAll();
             List<string> Locations = new List<string>();
             Locations.Add("Cairo");
             Locations.Add("Giza");
             Locations.Add("Alex");
-
             ViewData["data"] = Locations;
             ViewBag.data2 = Locations;
-
-
             return View(departments);
-            //return View("Index", departments);
-            //return View("Index");
-            //return View();
         }
-        //Department/Details/2
         public IActionResult Details(int id)
         {
-            var dept = context.Departments.FirstOrDefault(d => d.Id == id);
+            var dept = departmentRepository.GetById(id);
             return View(dept);
         }
-        //New Department
         public IActionResult New()
         {
             return View();
@@ -41,40 +39,30 @@ namespace WebApp.Controllers
         {
             if (dept.Name != null)
             {
-                context.Departments.Add(dept);
-                context.SaveChanges();
-                //return View("Index");
+                departmentRepository.Insert(dept);
                 return RedirectToAction("Index");
             }
             return View("New");
         }
-        //Update Department
         public IActionResult Edit(int id)
         {
-            var dept = context.Departments.FirstOrDefault(d => d.Id == id);
+            var dept = departmentRepository.GetById(id);
             return View(dept);
         }
         public IActionResult SaveEdit(Department dept)
         {
-            var oldDepartment = context.Departments.FirstOrDefault(d => d.Id == dept.Id);
-
-            if (oldDepartment != null)
+            if (dept.Name != null)
             {
-                oldDepartment.Name = dept.Name;
-                context.Departments.Update(oldDepartment);
-                context.SaveChanges();
+                departmentRepository.Update(dept.Id, dept);
                 return RedirectToAction("Index");
             }
             return View("Edit");
         }
-        //Delete
         public IActionResult Delete(int id)
         {
-            var dept = context.Departments.FirstOrDefault(de => de.Id == id);
-            if (dept != null)
+            if (id != null)
             {
-                context.Departments.Remove(dept);
-                context.SaveChanges();
+                departmentRepository.Delete(id);
                 return RedirectToAction("Index");
             }
             return RedirectToAction("Index");

@@ -1,0 +1,40 @@
+﻿@model Department
+
+<div>
+    <label for="Location">Location</label>
+    <input type="text" id="Location" name="Location" class="form-control" />
+</div>
+
+@* HTML Helpers -- Looselly *@
+<div>
+    @Html.Label("Location")
+    @Html.TextBox("Location", null, new { @class = "form-control" })
+</div>
+
+@* HTML Helpers -- Strong *@
+<div>
+    @Html.LabelFor(m => m.Location)
+    @Html.TextBoxFor(m => m.Location, null, new { @class = "form-control" })
+</div>
+
+<div>
+    <a href="/Student/Index" class="btn btn-primary mt-2">Display</a>
+    @Html.ActionLink("Display", "Index", "Student", null, new { @class = "btn btn-primary mt-2" })
+</div>
+
+@* Tag Helpers *@
+<div>
+    <label asp-for="Location">Location</label>
+    <input asp-for="Location" class="form-control" />
+
+    <a href="/Student/Index" class="btn btn-primary mt-2">Display</a>
+    <a asp-controller="Student" asp-action="Index" class="btn btn-primary mt-2">Display</a>
+</div>
+
+<form method="get" asp-controller="Student" asp-action="Index">
+    <div>
+        <label asp-for="Location">Location</label>
+        <input asp-for="Location" class="form-control" />
+    </div>
+    <a asp-controller="Student" asp-action="Index" class="btn btn-primary mt-2">Display</a>
+</form>

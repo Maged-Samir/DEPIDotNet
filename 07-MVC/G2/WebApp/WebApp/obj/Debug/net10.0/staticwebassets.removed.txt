@@ -1,3 +1,0 @@
-D:\Workshop\DEPIDotNet\07-MVC\G2\WebApp\WebApp\wwwroot\css\site.css
-D:\Workshop\DEPIDotNet\07-MVC\G2\WebApp\WebApp\wwwroot\favicon.ico
-D:\Workshop\DEPIDotNet\07-MVC\G2\WebApp\WebApp\wwwroot\js\site.js

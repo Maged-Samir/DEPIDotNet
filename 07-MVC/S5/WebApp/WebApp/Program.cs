@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using WebApp.Context;
+using WebApp.Managers;
+using WebApp.Repos;
+
 namespace WebApp
 {
     public class Program
@@ -12,6 +17,15 @@ namespace WebApp
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
             });
+
+
+            //builder.Services.AddDbContext<SchoolDbContext>(options => options.UseSqlServer("Server=.;Database=SchoolV3;Integrated Security =True;Encrypt =False"));
+
+            builder.Services.AddDbContext<SchoolDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("LocalConnection")));
+
+            builder.Services.AddScoped<IDepartmentManager, DepartmentRepository>();
+            builder.Services.AddScoped<IStudentmManager,StudentRepository>();
+
 
             var app = builder.Build();
 

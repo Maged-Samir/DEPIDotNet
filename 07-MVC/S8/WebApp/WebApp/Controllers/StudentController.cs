@@ -2,17 +2,35 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApp.Context;
+using WebApp.Managers;
 using WebApp.Models;
+using WebApp.Services;
 using WebApp.ViewModels;
 
 namespace WebApp.Controllers
 {
     public class StudentController : Controller
     {
-        SchoolDbContext context = new SchoolDbContext();
+        //StudentRepository studentManger;
+        //DepartmentRepository departmentManger;
+        //public StudentController()
+        //{
+        //    studentManger = new StudentRepository();
+        //    departmentManger = new DepartmentRepository();
+        //}
+
+        IStudentManager studentManger;
+        IDepartmentManager departmentManger;
+
+        public StudentController(IStudentManager studentManager, IDepartmentManager departmentManager)
+        {
+            this.studentManger = studentManager;
+            this.departmentManger = departmentManager;
+        }
+
         public IActionResult Details(int id)
         {
-            var student = context.Students.Include(s => s.Department).SingleOrDefault(x => x.Id == id);
+            var student = studentManger.GetById(id);
 
             //Mapping 
             StudentDepartmentViewModel studentDepartmentVM = new StudentDepartmentViewModel();
@@ -40,12 +58,12 @@ namespace WebApp.Controllers
         }
         public IActionResult Index()
         {
-            var deprtments = context.Students.Include(s => s.Department).ToList();
+            var deprtments = studentManger.GetAll();
             return View(deprtments);
         }
         public IActionResult New(Student? student = null)
         {
-            var departments = context.Departments.ToList();
+            var departments = departmentManger.GetAll();
             ViewData["data"] = departments;
             return View(student);
         }
@@ -53,47 +71,41 @@ namespace WebApp.Controllers
         {
             if (student.Name != null)
             {
-                context.Students.Add(student);
-                context.SaveChanges();
+                studentManger.Insert(student);
                 return RedirectToAction("Index");
             }
-            ViewData["data"] = context.Departments.ToList();
+            ViewData["data"] = departmentManger.GetAll();
             return View("New", student);
         }
         public IActionResult Edit(int id)
         {
-            var student = context.Students.FirstOrDefault(s => s.Id == id);
-            ViewData["data"] = context.Departments.ToList();
-            return View(student);
+            var student = studentManger.GetById(id);
+            ViewData["data"] = departmentManger.GetAll();
+            return View("EditV2", student);
         }
         public IActionResult SaveEdit(Student student)
         {
-            var oldStudent = context.Students.FirstOrDefault(s => s.Id == student.Id);
-            if (student.Name != null)
+            if (ModelState.IsValid) //validation
             {
-                oldStudent.Name = student.Name;
-                oldStudent.Age = student.Age;
-                oldStudent.Division = student.Division;
-                oldStudent.Grade = student.Grade;
-                oldStudent.DepartmentId = student.DepartmentId;
-
-                context.Students.Update(oldStudent);
-                context.SaveChanges();
+                studentManger.Update(student);
                 return RedirectToAction("Index");
             }
-            ViewData["data"] = context.Departments.ToList();
-            return View("Edit", student);
+            ViewData["data"] = departmentManger.GetAll();
+            return View("EditV2", student);
         }
         public IActionResult Delete(int id)
         {
-            var Student = context.Students.SingleOrDefault(d => d.Id == id);
-            if (Student != null)
+            if (id != null)
             {
-                context.Students.Remove(Student);
-                context.SaveChanges();
+                studentManger.Delete(id);
                 return RedirectToAction("Index");
             }
             return RedirectToAction("Index");
+        }
+
+        public IActionResult TestHelpers()
+        {
+            return View();
         }
     }
 }

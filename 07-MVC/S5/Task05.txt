@@ -1,0 +1,6 @@
+According to the Product & Category Of The previous Task
+We Need to Apply Advanced Bootstrap Layout , Download and Integrate Your Advanced Layout Instead Of Default One 
+
+After that Apply Validation in Your Models with ModelState 
+Don't forget that Validation Applied in the three Layers (Model - Controller - View)
+

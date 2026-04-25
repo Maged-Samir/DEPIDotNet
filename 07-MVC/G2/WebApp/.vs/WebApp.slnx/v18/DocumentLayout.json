@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\g2\\webapp\\webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\g2\\webapp\\webapp\\managers\\istudentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\managers\\istudentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\g2\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\g2\\webapp\\webapp\\services\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\g2\\webapp\\webapp\\services\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\g2\\webapp\\webapp\\context\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\context\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 194,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +43,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Services\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "WebApp\\Services\\DepartmentRepository.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Services\\DepartmentRepository.cs",
+              "RelativeToolTip": "WebApp\\Services\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T14:01:21.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:57:50.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IStudentManager.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Managers\\IStudentManager.cs",
+              "RelativeDocumentMoniker": "WebApp\\Managers\\IStudentManager.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Managers\\IStudentManager.cs",
+              "RelativeToolTip": "WebApp\\Managers\\IStudentManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:57:04.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Services\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "WebApp\\Services\\StudentRepository.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Services\\StudentRepository.cs",
+              "RelativeToolTip": "WebApp\\Services\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:55:58.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:54:53.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Context\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "WebApp\\Context\\SchoolDbContext.cs",
+              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\G2\\WebApp\\WebApp\\Context\\SchoolDbContext.cs",
+              "RelativeToolTip": "WebApp\\Context\\SchoolDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:58:55.604Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -1,30 +1,37 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApp.Context;
+using WebApp.Managers;
 using WebApp.Models;
+using WebApp.Services;
 
 namespace WebApp.Controllers
 {
     public class DepartmentController : Controller
     {
-        SchoolDbContext context = new SchoolDbContext();
+        //DepartmentRepository departmentManager;
+        //public DepartmentController()
+        //{
+        //  departmentManager = new DepartmentRepository();  
+        //}
+
+        IDepartmentManager departmentManager;
+
+        public DepartmentController(IDepartmentManager departmentManager)
+        {
+            this.departmentManager = departmentManager;
+        }
+
         public IActionResult Index()
         {
-            var deprtments = context.Departments.ToList();
+            var deprtments = departmentManager.GetAll();
             return View(deprtments);
-
-            //return View("Index", deprtments);
-            //return View("Index");
-            //return View();
         }
         public IActionResult Details(int id)
         {
             List<string> Locations = new List<string>() { "Cairo", "Giza", "Menofia", "Mansoura" };
-
             ViewData["data"] = Locations;
             ViewBag.data1 = Locations;
-
-
-            var department = context.Departments.SingleOrDefault(d => d.Id == id);
+            var department = departmentManager.GetById(id);
             return View("Details", department);
         }
         public IActionResult New()
@@ -33,47 +40,35 @@ namespace WebApp.Controllers
         }
         public IActionResult SaveNew(Department department)
         {
-            if (department.Name != null)  //Validation
+            if (department.Name != null)
             {
-                //Save on DB
-                context.Departments.Add(department);
-                context.SaveChanges();
-                //return View("Index");  //XXXXXXX
+                departmentManager.Insert(department);
                 return RedirectToAction("Index");
             }
             return View("New");
         }
         public IActionResult Edit(int id)
         {
-            var department = context.Departments.SingleOrDefault(d => d.Id == id);
+            var department = departmentManager.GetById(id);
             return View(department);
         }
         public IActionResult SaveEdit(Department department)
         {
-            var oldDepartment = context.Departments.SingleOrDefault(d => d.Id == department.Id);
-
             if (department.Name != null)
             {
-                oldDepartment.Name = department.Name;
-                oldDepartment.Location = department.Location;
-
-                context.Departments.Update(oldDepartment);
-                context.SaveChanges();
+                departmentManager.Update(department);
                 return RedirectToAction("Index");
             }
             return View("Edit", department);
         }
         public IActionResult Delete(int id)
         {
-            var department = context.Departments.SingleOrDefault(d => d.Id == id);
-            if(department != null)
+            if (id != null)
             {
-                context.Departments.Remove(department);
-                context.SaveChanges() ;
+                departmentManager.Delete(id);
                 return RedirectToAction("Index");
             }
             return RedirectToAction("Index");
         }
-
     }
 }

@@ -1,0 +1,38 @@
+﻿@model Student
+@{
+    SelectList deptList = new SelectList(ViewBag.data, "Id", "Name");
+}
+<h2>Edit Student with Tag Helpers</h2>
+
+<form method="get" asp-controller="Student" asp-action="SaveEdit" asp-route-id="@Model.Id">
+
+    <div class="col">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="col">
+        <label asp-for="Age">Age</label>
+        <input asp-for="Age" class="form-control" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+    <div class="col">
+        <label asp-for="Division">Division</label>
+        <input asp-for="Division" class="form-control" />
+        <span asp-validation-for="Division" class="text-danger"></span>
+    </div>
+    <div class="col">
+        <label asp-for="Grade" >Grade</label>
+        <input asp-for="Grade" class="form-control" />
+        <span asp-validation-for="Grade" class="text-danger"></span>
+    </div>
+    <div class="col">
+        <label asp-for="Department">Department</label>
+        <select asp-for="DepartmentId" asp-items="deptList" class="form-control">
+        </select>
+    </div>
+    <div>
+        <input type="submit" value="Save" class="btn btn-primary mt-2" />
+    </div>
+
+</form>
