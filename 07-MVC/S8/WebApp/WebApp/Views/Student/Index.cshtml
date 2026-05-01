@@ -39,3 +39,17 @@
 </table>
 
 <a href="/Student/New" class="btn btn-primary">Add New Student</a>
+
+
+<br />
+<br />
+<br />
+<br />
+
+<div style="display:flex;flex-wrap:wrap" class="gap-3" >
+    
+    @foreach (var item in Model)
+    {
+        <partial name="_StudentCardPartialView" model="@item" />
+    }
+</div>

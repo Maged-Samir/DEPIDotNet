@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebApp.Managers;
 using WebApp.Models;
 using WebApp.Services;
 
 namespace WebApp.Controllers
 {
+    [Authorize(Roles ="Teacher")]
     public class DepartmentController : Controller
     {
         //DepartmentRepository departmentRepository = new DepartmentRepository();

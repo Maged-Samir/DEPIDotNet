@@ -78,7 +78,25 @@
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <a class="btn-getstarted" href="index.html#about">Get Started</a>
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="btn-getstarted" asp-action="Login" asp-controller="Account">Login</a>
+                    </li>
+                </ul>
+            }
+            else
+                {
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="btn-getstarted" asp-action="Logout" asp-controller="Account">Logout</a>
+                    </li>
+                </ul>
+                }
+
+            
+            
 
         </div>
     </header>

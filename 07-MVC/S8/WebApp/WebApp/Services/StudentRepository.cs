@@ -46,5 +46,9 @@ namespace WebApp.Services
             context.Remove(std);
             context.SaveChanges();
         }
+        public Student GetByName(string name)
+        {
+            return context.Students.SingleOrDefault(x => x.Name == name);
+        }
     }
 }

@@ -1,7 +1,9 @@
 ﻿@model Student
 
 <h2>Add New Student</h2>
-<form method="get" action="/Student/SaveNew">
+<form method="post" action="/Student/SaveNew">
+
+    @Html.AntiForgeryToken()
 
     <div class="col">
         <label for="Name">Name</label>

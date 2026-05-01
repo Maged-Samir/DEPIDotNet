@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApp.Context;
 using WebApp.Managers;
@@ -23,6 +24,8 @@ namespace WebApp
 
             builder.Services.AddDbContext<SchoolDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("LocalConnection")));
 
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<SchoolDbContext>();
+
             builder.Services.AddScoped<IDepartmentManager, DepartmentRepository>();
             builder.Services.AddScoped<IStudentmManager,StudentRepository>();
 
@@ -39,8 +42,10 @@ namespace WebApp
 
             app.UseHttpsRedirection();
             app.UseRouting();
+
             app.UseAuthentication();
             app.UseAuthorization();
+            
             app.UseSession();
 
             app.Use(async (context, next) =>

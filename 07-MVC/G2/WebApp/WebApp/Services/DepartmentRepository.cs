@@ -7,8 +7,8 @@ namespace WebApp.Services
     public class DepartmentRepository : IDepartmentManager
     {
 
-        SchoolDbContext context;
 
+        SchoolDbContext context;
         public DepartmentRepository(SchoolDbContext context)
         {
             this.context = context;

@@ -2,12 +2,9 @@
 
 namespace WebApp.Managers
 {
-    public interface IStudentManager
+    public interface IStudentManager  : IGenericManager<Student>
     {
-        public List<Student> GetAll();
-        public Student GetById(int id);
-        public int Insert(Student Student);
-        public int Update(Student Student);
-        public void Delete(int id);
+        public Student GetByName(string name);
+ 
     }
 }

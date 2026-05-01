@@ -67,6 +67,8 @@ namespace WebApp.Controllers
             ViewData["data"] = departments;
             return View(student);
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult SaveNew(Student student)
         {
             if (student.Name != null)
@@ -102,6 +104,20 @@ namespace WebApp.Controllers
             }
             return RedirectToAction("Index");
         }
+        public IActionResult TestUnique(string name)
+        {
+          
+            var student = studentManger.GetByName(name);
+            if (student == null)
+            {
+                return Json(true);
+            } 
+            else
+            {
+                return Json(false);
+            }
+        }
+
 
         public IActionResult TestHelpers()
         {

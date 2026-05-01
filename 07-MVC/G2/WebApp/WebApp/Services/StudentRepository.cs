@@ -13,7 +13,6 @@ namespace WebApp.Services
         {
             this.context = context;
         }
-
         public List<Student> GetAll()
         {
             return context.Students.Include(s => s.Department).ToList();

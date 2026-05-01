@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApp.Context;
 using WebApp.Managers;
@@ -16,6 +17,10 @@ namespace WebApp
             builder.Services.AddSession();
 
             builder.Services.AddDbContext<SchoolDbContext>(options=>options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolDbConnection")));
+
+            builder.Services.AddIdentity<IdentityUser,IdentityRole>()
+            .AddEntityFrameworkStores<SchoolDbContext>()
+            .AddDefaultTokenProviders();
 
             builder.Services.AddScoped<IDepartmentManager,DepartmentRepository>();
             builder.Services.AddScoped<IStudentManager, StudentRepository>();
