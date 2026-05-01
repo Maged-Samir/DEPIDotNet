@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebApp.Context;
 using WebApp.Managers;
 using WebApp.Models;
@@ -6,6 +7,7 @@ using WebApp.Repos;
 
 namespace WebApp.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class DepartmentController : Controller
     {
         //SchoolDbContext context = new SchoolDbContext();

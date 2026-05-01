@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebApp.Context;
 using WebApp.Managers;
 using WebApp.Models;
@@ -8,6 +8,7 @@ using WebApp.ViewModels;
 
 namespace WebApp.Controllers
 {
+    [Authorize(Roles ="User")]
     public class StudentController : Controller
     {
         //SchoolDbContext context = new SchoolDbContext();

@@ -5,7 +5,7 @@ using WebApp.Models;
 
 namespace WebApp.Context
 {
-    public class SchoolDbContext : IdentityDbContext<IdentityUser>
+    public class SchoolDbContext : IdentityDbContext<ApplicationUser>
     {
         public SchoolDbContext()
         {

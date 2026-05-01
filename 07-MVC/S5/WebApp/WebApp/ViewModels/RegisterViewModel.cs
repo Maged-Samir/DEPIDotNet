@@ -4,6 +4,11 @@ namespace WebApp.ViewModels
 {
     public class RegisterViewModel
     {
+        [Required]
+        public string FirstName { get; set; }
+        [Required]
+        public string LastName { get; set; }
+
         [Required(ErrorMessage = "UserName is Required")]
         public string UserName { get; set; }
         [Required(ErrorMessage = "EmailAddress is Required")]
