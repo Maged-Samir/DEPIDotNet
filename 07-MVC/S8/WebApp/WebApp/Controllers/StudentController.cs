@@ -1,4 +1,5 @@
 ﻿using AspNetCoreGeneratedDocument;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApp.Context;
@@ -9,6 +10,7 @@ using WebApp.ViewModels;
 
 namespace WebApp.Controllers
 {
+    [Authorize(Roles ="User")]
     public class StudentController : Controller
     {
         //StudentRepository studentManger;

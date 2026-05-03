@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebApp.Context;
 using WebApp.Managers;
 using WebApp.Models;
@@ -6,6 +7,8 @@ using WebApp.Services;
 
 namespace WebApp.Controllers
 {
+
+    [Authorize(Roles ="Admin")]
     public class DepartmentController : Controller
     {
         //DepartmentRepository departmentManager;

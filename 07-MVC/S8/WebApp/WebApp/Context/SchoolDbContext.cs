@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WebApp.Models;
 
 namespace WebApp.Context
 {
-    public class SchoolDbContext : DbContext
+    public class SchoolDbContext : IdentityDbContext<IdentityUser>
     {
         public SchoolDbContext() { }
         public SchoolDbContext(DbContextOptions options):base(options) { }

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApp.Context;
 using WebApp.Managers;
@@ -16,6 +17,8 @@ namespace WebApp
             builder.Services.AddSession(s => s.IdleTimeout = TimeSpan.FromMinutes(20));
 
             builder.Services.AddDbContext<SchoolDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("LocalConnection")));
+
+            builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddEntityFrameworkStores<SchoolDbContext>();
 
             builder.Services.AddScoped<IDepartmentManager,DepartmentRepository>();
             builder.Services.AddScoped<IStudentManager, StudentRepository>();
