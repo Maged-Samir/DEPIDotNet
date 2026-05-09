@@ -1,1 +1,1 @@
-Apply DI on Product & Category
+Apply Services & Managers on Product & Category

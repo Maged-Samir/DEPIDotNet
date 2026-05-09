@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s8\\webapp\\webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s8\\webapp\\webapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s8\\webapp\\webapp\\views\\role\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\role\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s8\\webapp\\webapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|d:\\workshop\\depidotnet\\07-mvc\\s8\\webapp\\webapp\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 194,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,67 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\WebApp\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\WebApp\\Controllers\\AccountController.cs",
               "RelativeToolTip": "WebApp\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAswBEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswBYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T13:55:49.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddRole.cshtml",
-              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\WebApp\\Views\\Role\\AddRole.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Role\\AddRole.cshtml",
-              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\WebApp\\Views\\Role\\AddRole.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Role\\AddRole.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-02T13:48:15.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\WebApp\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\RoleController.cs",
-              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\WebApp\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAASwBgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T13:42:49.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\WebApp\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\DepartmentController.cs",
-              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\WebApp\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T13:40:28.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\WebApp\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\Workshop\\DEPIDotNet\\07-MVC\\S8\\WebApp\\WebApp\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T13:39:47.172Z",
+              "WhenOpened": "2026-05-02T14:05:40.39Z",
               "EditorCaption": ""
             }
           ]

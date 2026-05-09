@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\PointOfSaleApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADF87DC-FC19-47DF-BB40-88648318EDC2}|PointOfSaleTest\\PointOfSaleAppTest.csproj|c:\\users\\loq\\desktop\\pointofsaleapp\\pointofsaletest\\services\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADF87DC-FC19-47DF-BB40-88648318EDC2}|PointOfSaleTest\\PointOfSaleAppTest.csproj|solutionrelative:pointofsaletest\\services\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADF87DC-FC19-47DF-BB40-88648318EDC2}|PointOfSaleTest\\PointOfSaleAppTest.csproj|c:\\users\\loq\\desktop\\pointofsaleapp\\pointofsaletest\\testdata\\producttestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADF87DC-FC19-47DF-BB40-88648318EDC2}|PointOfSaleTest\\PointOfSaleAppTest.csproj|solutionrelative:pointofsaletest\\testdata\\producttestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC0163E-1197-4F0F-818E-0E75BA74A2F7}|PointOfSaleApp\\PointOfSaleApp.csproj|c:\\users\\loq\\desktop\\pointofsaleapp\\pointofsaleapp\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC0163E-1197-4F0F-818E-0E75BA74A2F7}|PointOfSaleApp\\PointOfSaleApp.csproj|solutionrelative:pointofsaleapp\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CC0163E-1197-4F0F-818E-0E75BA74A2F7}|PointOfSaleApp\\PointOfSaleApp.csproj|c:\\users\\loq\\desktop\\pointofsaleapp\\pointofsaleapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CC0163E-1197-4F0F-818E-0E75BA74A2F7}|PointOfSaleApp\\PointOfSaleApp.csproj|solutionrelative:pointofsaleapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 194,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductTestData.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\PointOfSaleApp\\PointOfSaleTest\\TestData\\ProductTestData.cs",
+              "RelativeDocumentMoniker": "PointOfSaleTest\\TestData\\ProductTestData.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\PointOfSaleApp\\PointOfSaleTest\\TestData\\ProductTestData.cs",
+              "RelativeToolTip": "PointOfSaleTest\\TestData\\ProductTestData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:35:22.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\PointOfSaleApp\\PointOfSaleTest\\Services\\ProductServiceTests.cs",
+              "RelativeDocumentMoniker": "PointOfSaleTest\\Services\\ProductServiceTests.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\PointOfSaleApp\\PointOfSaleTest\\Services\\ProductServiceTests.cs",
+              "RelativeToolTip": "PointOfSaleTest\\Services\\ProductServiceTests.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:12:15.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\PointOfSaleApp\\PointOfSaleApp\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "PointOfSaleApp\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\PointOfSaleApp\\PointOfSaleApp\\Services\\ProductService.cs",
+              "RelativeToolTip": "PointOfSaleApp\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:11:40.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\PointOfSaleApp\\PointOfSaleApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "PointOfSaleApp\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\PointOfSaleApp\\PointOfSaleApp\\Models\\Product.cs",
+              "RelativeToolTip": "PointOfSaleApp\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:11:07.655Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 36,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

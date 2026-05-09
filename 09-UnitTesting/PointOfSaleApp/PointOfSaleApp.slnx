@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PointOfSaleApp/PointOfSaleApp.csproj" />
+  <Project Path="PointOfSaleTest/PointOfSaleAppTest.csproj" />
+</Solution>

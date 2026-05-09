@@ -1,0 +1,14 @@
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\bin\Debug\net10.0\PointOfSaleApp.exe
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\bin\Debug\net10.0\PointOfSaleApp.deps.json
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\bin\Debug\net10.0\PointOfSaleApp.runtimeconfig.json
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\bin\Debug\net10.0\PointOfSaleApp.dll
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\bin\Debug\net10.0\PointOfSaleApp.pdb
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\obj\Debug\net10.0\PointOfSaleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\obj\Debug\net10.0\PointOfSaleApp.AssemblyInfoInputs.cache
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\obj\Debug\net10.0\PointOfSaleApp.AssemblyInfo.cs
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\obj\Debug\net10.0\PointOfSaleApp.csproj.CoreCompileInputs.cache
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\obj\Debug\net10.0\PointOfSaleApp.dll
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\obj\Debug\net10.0\refint\PointOfSaleApp.dll
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\obj\Debug\net10.0\PointOfSaleApp.pdb
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\obj\Debug\net10.0\PointOfSaleApp.genruntimeconfig.cache
+C:\Users\LOQ\Desktop\PointOfSaleApp\PointOfSaleApp\obj\Debug\net10.0\ref\PointOfSaleApp.dll
