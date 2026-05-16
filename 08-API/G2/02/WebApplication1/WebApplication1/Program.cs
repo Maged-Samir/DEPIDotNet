@@ -1,5 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using WebApplication1.Context;
 
 namespace WebApplication1
@@ -29,6 +31,29 @@ namespace WebApplication1
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
 
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = "CoolAuthentication";
+                options.DefaultChallengeScheme = "CoolAuthentication";
+            })
+                .AddJwtBearer("CoolAuthentication", options =>
+                {
+                    //Get SecretKey
+                    var secretKeyString = builder.Configuration.GetValue<string>("SecretKey");
+                    var secretKeyInBytes = Encoding.ASCII.GetBytes(secretKeyString);
+                    var secretKey = new SymmetricSecurityKey(secretKeyInBytes);
+
+
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = secretKey,
+                      ValidateIssuer = false,
+                      ValidateAudience = false,
+                    };
+                });
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -42,6 +67,7 @@ namespace WebApplication1
             app.UseHttpsRedirection();
 
             app.UseCors("AllowSpecification");
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
