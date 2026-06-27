@@ -1,0 +1,28 @@
+git config --global user.name "Maged"
+git config --global user.email "Maged@yahoo.com"
+git config --list
+
+---------------------------------------------------------
+
+git init => initialize New Working Directory 
+
+git add . => Move Changes from Working Directory to Staging Area
+git commit -m "newCommit"
+
+git remote add origin https://github.com/Maged-Samir/Test.git
+git branch -M main
+git push -u origin main
+
+----------------------------------------------------------
+git restore project.txt => Working Area
+git restore --staged Project.txt => Staged Area ++
+git reset --hard Project.txt head~1
+
+----------------------------------------------------------
+git branch => list all branches 
+git branch Testing  => create New Testing Branch 
+git switch main   => switch to specified branch
+git merge Testing  => merge to main 
+git branch -d Testing  => Delete Branch 
+
+
